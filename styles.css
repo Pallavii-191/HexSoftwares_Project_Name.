@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #ddd;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.section {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #444;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.experience-item, .project-item {
+    margin-bottom: 1.5rem;
+}
+
+.experience-item h3 {
+    margin: 0;
+    color: #555;
+}
+
+.experience-item p {
+    font-style: italic;
+    color: #777;
+    margin-top: 0.2rem;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .main-content {
+        margin: 1rem auto;
+    }
+}
